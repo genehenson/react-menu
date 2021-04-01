@@ -30,7 +30,7 @@
     "example": "npm start --prefix example",
     "predeploy": "cd example && npm run build",
     "deploy": "gh-pages -d example/build",
-    "prepare": "npm run bundle"
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "prop-types": ">=15.7.2",
